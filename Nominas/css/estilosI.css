@@ -1,0 +1,194 @@
+/* estilos para inside */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: #3B3838;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Limita el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario */
+}
+
+/* Estilo para las etiquetas */
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para los inputs */
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Estilo para el botón */
+form button {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+/* Cambia el color del botón al pasar el ratón */
+form button:hover {
+    background-color: #0a0e8a;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo {
+    padding: 10px 10px;
+    margin-right: 10px; 
+}
+
+.nom {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #f0f0f0; 
+}
+
+.logout-button {
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto; /* Coloca el logout-button al extremo derecho */
+}
+
+.logout-button:hover {
+    background-color: #0a0e8a;
+}
+
+/* Agrega estos estilos al final de tu archivo CSS actual o crea un nuevo archivo para estos estilos */
+
+.container h2 {
+    margin-top: 20px;
+}
+
+.container #empleadoAgregado {
+    margin-top: 10px;
+}
+
+.container #empleadoAgregado div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container #empleadoAgregado div strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container label {
+    margin-top: 10px;
+    display: block;
+}
+
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.container #empleadoAgregado {
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de Empleados */
+.container #empleadoForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.container #empleadoForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container #empleadoForm input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container #empleadoForm button {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container #empleadoForm button:hover {
+    background-color: #0a0e8a;
+}

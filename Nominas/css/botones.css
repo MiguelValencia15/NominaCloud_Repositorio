@@ -1,0 +1,32 @@
+.login-button {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+.login-button:hover {
+    background-color: #878b88;
+}
+
+.help-button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.help-button:hover {
+    background-color: #878b88;
+}
+
+h2{
+    color: #008888;
+}
