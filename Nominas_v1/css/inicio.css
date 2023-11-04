@@ -1,0 +1,75 @@
+/* Estilo para el cuerpo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: #3B3838;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+}
+
+/* Estilo para la tabla */
+.container table {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+.container table th, .container table td {
+    border: 1px solid #00B0F0;
+    padding: 10px;
+}
+.container table th {
+    background-color: #333;
+    color: white;
+}
+.container table td {
+    background-color: #f9f9f9;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #00B0F0;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Estilo para el acomodo */
+.nom {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #f0f0f0; 
+}
+
+/* Estilo para botones y encabezado */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-content .boton {
+    margin-left: 1150px; /* Ajusta este valor según tu preferencia */
+}
+
+.logout-button {
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logout-button:hover {
+    background-color: #0a0e8a;
+}

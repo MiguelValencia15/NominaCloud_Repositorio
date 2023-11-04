@@ -1,0 +1,183 @@
+/* Estilos para el cuerpo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+.cabecera {
+        position: sticky;
+        top: 0;
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+}
+.welcome-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: right; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: #008888;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Estilos para el acomodo y titulos */
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+.a {
+    padding: 150px 100px;
+    font-size: 25px;
+}
+.ades {
+    padding: 80px 80px;
+    font-size: 24px; 
+    text-decoration: none; 
+    color: inherit; 
+}
+.ades:hover {
+    color: #5a88ce;
+}
+.nom {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #f0f0f0; 
+}
+.noM {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #008888;
+}
+.titulo1 {
+    text-align: center; /* Alinea el texto al centro */
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 3em; 
+    color: #008888;
+}
+.titulo1c {
+    text-align: center; /* Alinea el texto al centro */
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 1.2em;
+}
+.container .ofrece-img-container {
+    display: flex;
+    justify-content: center;
+}
+.container .ofrece-img-container img.ofrece-img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#duda {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#duda:focus {
+    outline: none;
+    border-color: #5a88ce; /* Cambia el color del borde al enfocar */
+}
+h2{
+    color: #77a1b5;
+}
+
+/* Estilos para botones */
+.login-button {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+.login-button:hover {
+    background-color: #878b88;
+}
+
+.help-button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.help-button:hover {
+    background-color: #878b88;
+}
+
+/* Estilos para el container de contacto */
+.contacto {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    margin: 10px 0;
+    color:#1496d2
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input, .contacto select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto .boton-enviar {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto .boton-enviar:hover {
+    background-color: #0056b3;
+}
