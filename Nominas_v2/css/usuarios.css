@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #164863;
+    color: white;
+    padding: 10px 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #002f75;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-sizing: border-box;
+    color: white;
+}
+.cabecera {
+    position: sticky;
+    top: 0;
+    background-color: #164863;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.registro-button {
+    padding: 10px 120px;
+    font-size: 16px;
+    background-color: #002f75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10 auto; /* Centra el botón */
+    display: block; /* Asegura que ocupe el ancho máximo disponible */
+}
+
+
+button.registro-button:hover {
+    background-color: #0c62e2;
+}
+/* Estilos para botones */
+.login-button {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #164863;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+.login-button:hover {
+    background-color: #0c62e2;
+}
+
+.help-button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #164863;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.help-button:hover {
+    background-color: #0c62e2;
+}
