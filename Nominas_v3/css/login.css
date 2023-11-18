@@ -1,0 +1,162 @@
+/* Estilos para el cuerpo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #164863;
+    color: white;
+    padding: 10px 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #002f75;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 100%; /* Cambiado a 100% para que abarque todo el ancho */
+    box-sizing: border-box; /* Considera el borde y el relleno dentro del ancho */
+}
+.cabecera {
+        position: sticky;
+        top: 0;
+        background-color: #164863;
+        color: white;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+}
+.welcome-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: right; /* Alinea el texto a la derecha */
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: #008888;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Estilos para el acomodo y titulos */
+.a {
+    display: block;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 1em;
+    color: #ecab0f; /* Amarillo */
+    text-decoration: none;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+form {
+    width: 50%; /* Establece el ancho del formulario */
+}
+img.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.nom {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #f0f0f0; 
+}
+.noM {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #008888;
+}
+.titulo1 {
+    text-align: center; /* Alinea el texto al centro */
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 3em; 
+    color: #008888;
+}
+.titulo1c {
+    text-align: center; /* Alinea el texto al centro */
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 1.2em;
+}
+.container .ofrece-img-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px; /* Agrega un margen inferior a la imagen */
+}
+
+.container .ofrece-img-container img.ofrece-img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; /* Agrega un margen inferior a la imagen */
+}
+
+#duda,
+label {
+    margin-top: 10px; /* Agrega un margen superior a los label */
+    margin-bottom: 10px; /* Agrega un margen inferior a los label */
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #ffffff;
+}
+#duda:focus {
+    outline: none;
+    border-color: #5a88ce; /* Cambia el color del borde al enfocar */
+}
+
+/* Estilos para botones/inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button.login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #002f75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.login-button:hover {
+    background-color: #0c62e2;
+}
+.help-button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.help-button:hover {
+    background-color: #878b88;
+}
+
