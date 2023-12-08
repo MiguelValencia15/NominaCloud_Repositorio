@@ -1,0 +1,78 @@
+/* Estilo para el cuerpo base */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #164863;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+}
+
+/* Estilo para la tabla */
+.container table {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+.container table th, .container table td {
+    border: 1px solid #00B0F0;
+    padding: 10px;
+}
+.container table th {
+    background-color: #164863;
+    color: white;
+}
+.container table td {
+    background-color: #f9f9f9;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #00B0F0;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Estilo para el acomodo */
+.nom {
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #f0f0f0; 
+}
+
+/* Estilo para botones y encabezado */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* Añadido para un espacio más consistente */
+    width: 100%;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em; /* Ajusta según tus preferencias */
+    color: #164863;
+}
+.header-content .boton {
+    margin-left: 1000px; /* Ajusta este valor según tu preferencia */
+}
+
+/*Estilos para boton*/
+.logout-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #164863;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px; /* Añadido para esquinas redondeadas */
+}
+.logout-button:hover {
+    background-color: #0c62e2;
+}
